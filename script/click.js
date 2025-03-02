@@ -1,5 +1,5 @@
 document.getElementById('new-today').addEventListener('click', function () {
-  window.location.href = '/ans.html';
+  window.location.href = './ans.html';
 });
 
 document.getElementById('btn-1').addEventListener('click', function () {
