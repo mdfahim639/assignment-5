@@ -35,7 +35,6 @@ document.getElementById('btn-2').addEventListener('click', function () {
     btn.setAttribute('disabled', true);
   }
 });
-// btn-3
 
 document.getElementById('clear-btn').addEventListener('click', function () {
   document.getElementById('secound').style.display = 'none';
