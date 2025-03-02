@@ -36,21 +36,6 @@ document.getElementById('btn-2').addEventListener('click', function () {
   }
 });
 // btn-3
-document.getElementById('btn-2').addEventListener('click', function () {
-  const taskElement = document.getElementById('task');
-  let value = parseInt(taskElement.innerText);
-  document.getElementById('secound').style.display = 'block';
-
-  if (value > 0) {
-    value -= 1;
-    taskElement.innerText = value;
-
-    alert('Board Updated Successfully');
-
-    const btn = document.getElementById('btn-3');
-    btn.setAttribute('disabled', true);
-  }
-});
 
 document.getElementById('clear-btn').addEventListener('click', function () {
   document.getElementById('secound').style.display = 'none';
